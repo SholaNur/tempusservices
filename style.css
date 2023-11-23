@@ -1,0 +1,179 @@
+/* nav-bar style */
+.navbar {
+  background-color: white;
+}
+.nav-link {
+  color: #366ed8;
+  font-size: 1.3rem;
+}
+.navbar-brand {
+  color: #366ed8;
+  font-size: 1.3rem;
+}
+.fa-bars {
+  color: #366ed8;
+}
+
+/* hero background image */
+.bgimage {
+  height: 100vh;
+  background: url("images/1.avif");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  background-color: #34495e;
+  font-size: 1rem;
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+/* Default styles for larger screens */
+.hero_desc {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Media query for screens smaller than 768px (e.g., tablets) */
+@media (max-width: 768px) {
+  .hero_desc {
+    font-size: 16px;
+  }
+}
+
+/* Media query for screens smaller than 576px (e.g., mobile phones) */
+@media (max-width: 576px) {
+  .hero_desc {
+    font-size: 14px;
+  }
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This sets the height of the hero-text div to 100% of the viewport height */
+}
+
+.imageAboutPage {
+  width: 90%;
+  height: 360px;
+}
+
+/* About Section Text Style */
+.text-center {
+  color: #366ed8;
+}
+/* Style for Services Starts */
+
+.servicesText.card {
+  height: vh;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #366ed8;
+}
+.servicesText:hover {
+  border: 1px solid #366ed8;
+}
+/* navbar scrolling effect added on js file */
+
+.navbarScroll.navbarDark {
+  background-color: #f5c6aa;
+}
+
+/* footer styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover,
+.fa-twitch:hover {
+  color: white;
+}
+.fab {
+  color: white;
+}
+/* footer styling */
+#footer {
+  background-color: #366ed8;
+  text-align: start;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: self-start;
+  padding: 40px;
+  color: white;
+}
+.container-fluid {
+  padding: 30px;
+}
+/* service card style */
+.card {
+  margin-bottom: 20px;
+}
+#about,
+#services,
+#projects,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+.btn-success {
+  background-color: #366ed8;
+}
+li {
+  list-style-type: none;
+}
+
+#contact {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact div {
+  margin: 10px;
+}
+#contact {
+  text-align: center;
+}
+
+.email .phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i {
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #366ed8;
+}
